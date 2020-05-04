@@ -1,1 +1,250 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>慶應義塾大学医学部端艇部【ボート部】</title>
+	<meta name="description" content="慶應義塾大学医学部端艇部 公式ホームページ The official site of Keio Medical Rowing Club. Since 1919.">
+	<link rel="stylesheet" href="css/styleIndex.css">
+	<link href="/img/favicon.ico?" rel="shortcut icon">
+	<!-- SEO対策忘れないよう -->
+	<script>
+		(function(d) {
+			var config = {
+					kitId: 'bdf3elp',
+					scriptTimeout: 3000,
+					async: true
+				},
+				h = d.documentElement,
+				t = setTimeout(function() {
+					h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+				}, config.scriptTimeout),
+				tk = d.createElement("script"),
+				f = false,
+				s = d.getElementsByTagName("script")[0],
+				a;
+			h.className += " wf-loading";
+			tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+			tk.async = true;
+			tk.onload = tk.onreadystatechange = function() {
+				a = this.readyState;
+				if (f || a && a != "complete" && a != "loaded") return;
+				f = true;
+				clearTimeout(t);
+				try {
+					Typekit.load(config)
+				} catch (e) {}
+			};
+			s.parentNode.insertBefore(tk, s)
+		})(document);
+	</script>
+	<!--ここまでwebfont-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<!--ここまでfontawesome-->
+
+	<style type="text/css">
+		#photo {
+			width: 100%;
+			/* height消去済 */
+			margin: 0 auto;
+			text-align: left;
+			overflow: hidden;
+			position: relative;
+		}
+
+		#photo img {
+			top: 0;
+			left: 0;
+			position: absolute;
+		}
+	</style>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			var setImg = '#photo';
+			var fadeSpeed = 1600;
+			var switchDelay = 5000;
+
+			$(setImg).children('img').css({
+				opacity: '0'
+			});
+			$(setImg + ' img:first').stop().animate({
+				opacity: '1',
+				zIndex: '5'
+			}, fadeSpeed);
+
+			setInterval(function() {
+				$(setImg + ' :first-child').animate({
+					opacity: '0'
+				}, fadeSpeed).next('img').animate({
+					opacity: '1'
+				}, fadeSpeed).end().appendTo(setImg);
+			}, switchDelay);
+		});
+	</script>
+	<!--ここまでphoto_script-->
+</head>
+
+<body id="index">
+
+	<header>
+		<div class="topLogo">
+			<a href="index.html"><img src="img/clubLogo.png" alt="慶應義塾大学医学部端艇部ロゴ"></a>
+		</div>
+		<nav>
+			<ul class="global-nav">
+				<li class="topBtn topFacebook"><a href="http://www.facebook.com/Keiomedboat" target="_blank"><img src="img/facebookIcon.png" alt="Facebookロゴ"></a></li>
+				<li class="topBtn"><a href="https://twitter.com/keiomedboat" target="_blank"><img src="img/twitterIcon.png" alt="Twitterロゴ"></a></li>
+				<li class="topNav"><a href="http://blog.goo.ne.jp/keiomedboat" target="_blank">部員日誌</a></li>
+				<li class="topNav"><a href=#>Coming Soon!</a><img scr=#></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="topWrapper">
+		<div id="photo">
+			<img src="img/top1.jpg" width="100%" height="100%" alt="2019早慶レガッタ">
+			<img src="img/top2.jpg" width="100%" height="100%" alt="2018東医体">
+			<img src="img/top3.jpg" width="100%" height="100%" alt="2019医療系レガッタ">
+			<img src="img/top4.jpg" width="100%" height="100%" alt="戸田ボートコース">
+		</div>
+	</div>
+
+	<div class="topNotice">
+		<p><i class="fas fa-flag"></i> お知らせ</p>
+		<a href="https://twitter.com/keiomedboat/status/1256860036137009152" target="_blank">5/5 17:00~ 新入生向けオンライン新歓開催！ <i class="fas fa-chevron-right"></i></a>
+	</div>
+
+	<div class="newsWrapper">
+		<div class="newsContainer">
+			<h1>News & Topic</h1>
+			<p class="subTitle">新着情報</p>
+			<ul>
+				<li>
+					<div class="newsContent">
+						<div class="newsDate"><span>2020.05.01</span></div>
+						<div class="newsType"><span class="forFresh">新入生向け</span></div>
+						<div class="newsC"><a href="https://twitter.com/keiomedboat/status/1256860036137009152" target="_blank">オンライン新歓の日程が決定しました！</a></div>
+					</div>
+				</li>
+				<li>
+					<div class="newsContent">
+						<div class="newsDate"><span>2020.05.01</span></div>
+						<div class="newsType"><span class="forNotice">お知らせ</span></div>
+						<div class="newsC"><span>ウェブサイトをリニューアルしました</span></div>
+					</div>
+				</li>
+				<li>
+					<div class="newsContent newsContentL">
+						<div class="newsDate"><span>2020.04.19</span></div>
+						<div class="newsType"><span class="forStats">大会情報</span></div>
+						<div class="newsC"><a href="https://twitter.com/Touitai/status/1252065191186935808" target="_blank">今年度の東医体が中止となりました</a></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="teamWrapper">
+		<div class="teamContainer">
+			<h1>Team Info</h1>
+			<p class="subTitle">100周年</p>
+			<div class="teamInfoFlex">
+				<div class="teamInfoLeft">
+					<h2>2019年、創部100周年を迎えました</h2>
+					<p class="teamInfoP">私たち、慶應医学部端艇部は、早慶戦、東医体、<br>慶東戦での勝利を目標に日々練習に励んでいます。<br>ボート競技は「0.1秒でも早くゴールした方が勝ち」<br>という至ってシンプルな競技ですが、艇速を追及する<br>ことは容易ではありません。漕手個人のフィジカルや<br>技術だけではなく、クルー全員のシンクロ、レースに<br>おけるCOXの駆け引きなど、様々な要素が絡み合い、<br>勝敗が決まります。<br class="brTeamInfo"><br class="brTeamInfo">先輩方が築き上げてこられた100年の伝統を守りつつ、<br>常により良い方向へ「変化」していくことを目標に、<br>これからも精一杯練習に取り組んでまいります。</p>
+				</div>
+				<div class="teamInfoRight">
+					<img src="img/teamInfo.jpg" alt="ボート部集合写真">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="instaWrapper">
+		<div class="instaContainer">
+			<h1>Instagram</h1>
+			<p class="subTitle">ピックアップ</p>
+			<div class="pickups">
+				<!--ここから可変モジュール-->
+				<div class="pickup">
+					<a href="https://www.instagram.com/p/B7x9ozZl3NY/" target="_blank"></a>
+					<img src="img/insta200126.jpg" alt="エルゴ大会">
+					<div class="instaNav">
+						<p class="pickupTitle">エルゴ大会</p>
+						<p class="pickupDate">2020.1.26</p>
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+				<div class="pickup">
+					<a href="https://www.instagram.com/p/B54C_aVFgNa/" target="_blank"></a>
+					<img src="img/insta191206.jpg" alt="卒業記念功労賞">
+					<div class="instaNav">
+						<p class="pickupTitle">功労賞</p>
+						<p class="pickupDate">2019.12.6</p>
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+				<div class="pickup">
+					<a href="https://www.instagram.com/p/B4CPI52lAQK/" target="_blank"></a>
+					<img src="img/insta191006.jpg" alt="2019慶東戦">
+					<div class="instaNav">
+						<p class="pickupTitle">慶東戦</p>
+						<p class="pickupDate">2019.10.6</p>
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+				<div class="pickup">
+					<a href="https://www.instagram.com/p/B1F0kzwlL-n/" target="_blank"></a>
+					<img src="img/insta190811.jpg" alt="東医体表彰式女子W4x">
+					<div class="instaNav">
+						<p class="pickupTitle">東医体・医療系レガッタ</p>
+						<p class="pickupDate">2019.8.11.</p>
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+				<!--ここまで可変モジュール-->
+			</div>
+			<div class="instaBtn">
+				<a class="btn" href="https://www.instagram.com/ko__medboat/?hl=ja" target="_blank"><i class="fab fa-instagram"></i> Instagramはこちら</a>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footerTop">
+			<div class="footerInfo">
+				<img src="img/anniversaryIcon.png" alt="100周年記念ロゴ">
+				<p class="footerClub">慶應義塾大学医学部端艇部</p>
+				<p>お問い合わせはこちら</p>
+				<a href="mailto:keiomedboat19@gmail.com">keiomedboat19@gmail.com</a>
+			</div>
+
+			<div class="footerNav">
+				<ul>
+					<li><a class="activeNav" href="index.html">トップページ</a></li>
+				</ul>
+				<ul>
+					<li><a>Coming Soon!</a></li>
+					<li><a>Coming Soon!</a></li>
+					<li><a>Coming Soon!</a></li>
+					<li><a class="activeNav" href="http://blog.goo.ne.jp/keiomedboat" target="_blank">部員日誌</a></li>
+					<li><a class="oldSite activeNav" href="http://keiomedboat.com/" target="_blank">旧ウェブサイト(~2018)</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://twitter.com/keiomedboat" target="_blank"><img src="img/twitterIcon.png"></a></li>
+					<li><a href="http://www.facebook.com/Keiomedboat" target="_blank"><img src="img/facebookIcon.png"></a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="copyright">
+			<p>© 2020 慶應義塾大学医学部端艇部</p>
+		</div>
+	</footer>
+
+</body></html>
