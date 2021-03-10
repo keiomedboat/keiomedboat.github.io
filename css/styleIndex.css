@@ -399,7 +399,16 @@ h1 {
 	border-radius: 6px;
 }
 
-.newsC {
+.newsCBlack {
+	width: 64%;
+	text-align: left;
+	font-size: 19px;
+	line-height: 72px;
+	padding-left: 36px;
+	color: #000;
+}
+
+.newsCGray {
 	width: 64%;
 	text-align: left;
 	font-size: 19px;
